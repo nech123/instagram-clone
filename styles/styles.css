@@ -1,0 +1,293 @@
+body{
+    padding: 0;
+    background-color: white;
+    width: 1200px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+
+    justify-content: center;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 70px;
+}
+
+#photos{
+    display:flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: space-between  ;
+}
+
+#photoMain1{
+   background-image: url(/public/img/foto1.png);
+   background-repeat: no-repeat;
+    width: 450px;
+    height: 600px;
+    display: flex;
+    position: absolute;
+    text-indent: -99999px;
+    margin-left: 156px;
+    margin-top: 24px;
+    animation: bg 4s infinite;
+
+}
+
+@keyframes bg{
+    33%{
+        background-image: url(../public/img/foto2.png);
+    }
+
+    66%{
+        background-image: url(../public/img/foto3.png);
+    }
+}
+
+#photoMain2{
+    background-image: url(/public/img/telefone.png);
+    width:450px;
+    display: flex;
+    height: 600px;
+    text-indent: -99999px;
+}
+
+#menuLateral{
+    display: flex;
+    border: 0.4px solid black;
+    width: 330px;
+    height: 330px;
+    margin-left: 50px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#boxInsta{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+}
+
+#boxCadast{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+#nameInsta{
+    background-image: url(/public/img/instagramLogo.png);
+    width: 340px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70px;
+    display: flex;
+    text-indent: -9999px;
+    align-items: center;
+    justify-content: center;
+    background-size: 240px;
+}
+
+#wilds{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction:column ;
+    width: 360px;
+    height: 70px;
+    margin-top: 10px;
+}
+
+#wilds1{
+    font-size: 16px;
+    width: 244px;
+    height: 130px;
+
+}
+
+#wilds2{
+    margin-top: 5px;
+    font-size: 16px;
+    width: 244px;
+    height: 130px;
+}
+
+#btn-login{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 244px;
+    height: 33px;
+    background-color: rgb(4, 117, 223) ;
+    color: white;
+    margin-top: 18px;
+    align-items: center;
+    font-family:sans-serif;
+    font-size: 17px;
+    opacity: 0.4;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+#talvesAqui{
+    margin-top: 9px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+#loginBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#loginFacebook{
+    margin-top: 9px;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+
+#esqueceuSenha{
+    font-size: 14px;
+    display: flex;
+    margin-top: 26px;
+    justify-content: center;
+}
+
+#lastBox{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    width: 330px;
+    height: 60px;
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    margin-top: 13px;
+
+}
+
+#cadastro{
+    color: blue;
+}
+
+
+
+#downloadApp{
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    width: 400px;
+    margin-top: -30px;
+}
+
+#wilds1::placeholder{
+    color: grey;
+    font-size: 13px;
+}
+
+#textParagraph1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    font-size: 15px;
+
+}
+
+#wilds2::placeholder{
+    color: grey;
+    font-size: 13px;
+}
+
+#facebookIcon{
+    background-image: url(../public/img/facebookLogo.png);
+    background-repeat: no-repeat;
+    text-indent: -99999px;
+    display: flex;
+    background-size: 20px;
+    width: 18px;
+    height: 18px;
+    margin-top: 5px;
+    background-position: center;
+    margin-right: 10px;
+}
+
+#boxImg{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+#appleStore{
+    text-indent: -9999px;
+    background-image: url(../public/img/iconeApple.png);
+    background-position: center;
+    background-size: 130px;
+    background-repeat: no-repeat;
+    width:220px;
+    height: 110px;
+
+}
+
+#playStore{
+    text-indent: -9999px;
+    background-image: url(../public/img/Marca-Google-Play-Png-800x445.png);
+    background-position: center;
+    background-size: 170px;
+    background-repeat: no-repeat;
+    width: 220px;
+    height: 110px;
+
+}
+
+#instaOptions{
+    display: flex;
+    flex-direction: column;
+}
+
+#listOne{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    gap: 10px
+}
+
+
+#listTwo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    gap: 10px
+}
+
+#idiomas{
+    margin-top: 30px;
+    font-size: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
